@@ -1,57 +1,25 @@
-# 📈 Análise Exploratória de Vendas (AdventureWorks)
+# 📊 Sales Data Analytics | Strategy & Insights
+> Transformando dados transacionais em decisões estratégicas de crescimento.
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Data_Analysis-00f2ff?style=for-the-badge&logo=googleanalytics&logoColor=black" />
-</div>
+![Status: Refatorando](https://img.shields.io/badge/Status-Refactoring-blueviolet?style=for-the-badge)
+![Role: Data Manager](https://img.shields.io/badge/Role-Data_Manager-00ff00?style=for-the-badge)
+![Tech: SQL | Python | Power BI](https://img.shields.io/badge/Tech-SQL_Python_PowerBI-cyan?style=for-the-badge)
 
-<br>
+## 🎯 O Problema de Negócio
+A falta de visibilidade sobre a sazonalidade e o churn de produtos estava impedindo a otimização do estoque e das campanhas de marketing. Este projeto visa diagnosticar:
+1. Quais categorias sustentam a margem de contribuição?
+2. Onde estão os gargalos logísticos por região?
+3. Qual o perfil de compra do cliente recorrente?
 
-> **Objetivo:** Conduzir uma **Análise Exploratória de Dados (EDA)** completa sobre o histórico de vendas do clássico banco de dados da Microsoft (AdventureWorks), respondendo a perguntas estratégicas de negócio através de visualizações gráficas e tabelas dinâmicas.
+## 🛠️ Stack Tecnológica
+- **Extração:** SQL Server / PostgreSQL (Queries de agregação complexas)
+- **Transformação:** Python (Pandas/Numpy) para limpeza de outliers
+- **Visualização:** Power BI / Looker (Dashboards Dinâmicos)
 
----
-
-## 🎯 Visão Geral do Projeto
-
-Este projeto tem foco na transformação de dados brutos de planilhas (`.xlsx`) em *insights* de negócio. Foram utilizadas técnicas de limpeza, agrupamento e visualização de dados em **Python** para entender o comportamento de vendas, margens de lucro e desempenho temporal da empresa fictícia *AdventureWorks*.
-
-Toda a análise foi construída e documentada em um notebook interativo:
-👉 **[Acessar o Notebook da Análise Completa (`analise-exploratoria.ipynb`)](analise-exploratoria.ipynb)**
-
----
-
-## 🗂️ O Dataset
-
-Os dados utilizados são provenientes da base pública **AdventureWorks** disponibilizada pela Microsoft, focada em registrar transações de vendas de equipamentos de ciclismo.
-
-- **Arquivo Principal:** `AdventureWorks.xlsx`
-- **Variáveis Chave Analisadas:** Custo, Preço de Venda, Lucro, Classe do Produto, Tempo de Envio, e Volume de Vendas por Loja/Região.
+## 📈 Resultados Esperados (KPIs)
+- **Ticket Médio:** Identificação de oportunidades de Cross-sell.
+- **Volume de Vendas:** Visão temporal (YoY/MoM).
+- **Taxa de Conversão:** Performance por canal de venda.
 
 ---
-
-## 💡 Perguntas de Negócio Respondidas
-
-Durante a análise, focamos em desvendar métricas vitais para a tomada de decisão da gerência comercial. Algumas das perguntas respondidas no código incluem:
-
-1. Qual foi a **Receita Total** e o **Lucro Total** gerados no período?
-2. Qual a margem de lucro por marca ou categoria de produto?
-3. Qual é o tempo médio de envio (em dias) dos produtos vendidos?
-4. Quais são as marcas mais lucrativas do portfólio?
-5. Como está distribuído o lucro ano a ano e mês a mês (Sazonalidade e Crescimento)?
-
-*(Todas as respostas são acompanhadas de gráficos de linha, barra e matrizes geradas pelo `matplotlib` / `seaborn`).*
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **Linguagem:** Python 3
-- **Ambiente:** Jupyter Notebook
-- **Bibliotecas Principais:**
-  - `pandas`: Para manipulação, limpeza e agregação do dataframe.
-  - `matplotlib` & `seaborn`: Para a criação de dashboards e visualizações gráficas.
-
----
-*Este repositório faz parte do meu portfólio de Análise de Dados, demonstrando aplicação prática de Python para Inteligência de Negócios.*
+*“A felicidade da sua vida depende da qualidade dos seus pensamentos.”* — **Marco Aurélio**
