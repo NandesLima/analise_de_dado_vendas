@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if page.is_homepage %}
+    <style>
+      .md-sidebar--primary { display: none !important; }
+      .md-sidebar--secondary { display: none !important; }
+      .md-main__inner { margin: 0 !important; max-width: 100% !important; }
+      .md-content { max-width: 800px; margin: 0 auto; padding-top: 2rem; }
+    </style>
+  {% endif %}
+  {{ super() }}
+{% endblock %}
