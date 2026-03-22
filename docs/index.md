@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=050505&height=200&section=header&text=Sales%20Analytics&fontSize=70&fontColor=00f2ff&animation=fadeIn&fontAlignY=35" width="100%" />
-</div>
+# 📊 Sales Data Analytics | AdventureWorks
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-00f2ff?style=for-the-badge&logo=python&logoColor=black" />
@@ -14,13 +12,6 @@
 
 ---
 
-## 📖 Documentação Oficial
-Toda a documentação, explicação do negócio e relatórios foram padronizados no nosso site oficial:
-
-👉 **[Acessar a Documentação Oficial (Sales Analytics)](https://nandeslima.github.io/analise_de_dado_vendas/)**
-
----
-
 ## 🎯 O Problema de Negócio
 
 Este projeto foca em diagnosticar o desempenho de vendas através da **Análise Exploratória de Dados (EDA)**, respondendo perguntas como:
@@ -30,14 +21,19 @@ Este projeto foca em diagnosticar o desempenho de vendas através da **Análise 
 3. **Análise Temporal:** Qual o comportamento do lucro ao longo dos meses e anos?
 4. **Volume:** Quantas unidades foram vendidas por cada marca?
 
----
-
-## 📁 Estrutura do Repositório
-- `data/` -> Contém os arquivos Excel brutos (`AdventureWorks.xlsx`).
-- `notebooks/` -> Contém o Jupyter Notebook original da Análise.
-- `docs/` -> Código fonte da documentação MkDocs.
+Diferente de dashboards estáticos, aqui a análise é feita *codificando*, permitindo flexibilidade total para cruzar e pivotar os dados brutos de faturamento e custos.
 
 ---
+
+## 🚀 Como a Análise Foi Feita
+
+O projeto consome a base de dados em `.xlsx` e aplica técnicas de agregação complexas utilizando `Pandas`. Os gráficos foram desenhados com `Matplotlib` sob o estilo *Seaborn* para clareza visual.
+
+👉 **[Acessar o Relatório da Análise Exploratória (Notebook)](analise/exploratoria.md)**
+
+---
+
+<br>
 <div align="center">
   <p><i>"A felicidade da sua vida depende da qualidade dos seus pensamentos."</i></p>
   <p>— <b>Marco Aurélio</b></p>

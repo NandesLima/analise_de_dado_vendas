@@ -1,0 +1,32 @@
+site_name: Sales Analytics
+site_description: Análise Exploratória do dataset AdventureWorks com Python e Pandas.
+site_author: Ernandes Lima
+repo_url: https://github.com/NandesLima/analise_de_dado_vendas
+repo_name: NandesLima/analise_de_dado_vendas
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep purple
+  font:
+    text: Roboto
+    code: Fira Code
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+extra_css:
+  - stylesheets/custom.css
+
+nav:
+  - 🏠 Início: index.md
+  - 📊 Análise Exploratória (EDA): analise/exploratoria.md
